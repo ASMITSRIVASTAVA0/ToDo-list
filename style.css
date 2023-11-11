@@ -1,0 +1,51 @@
+.page{
+    background-image:url(ToDo.jpg);
+    background-size: cover;
+    z-index:-1;
+    height:100vh;
+    width:100%;
+    color:rgb(9, 9, 121);
+}
+.card{
+    height:90vh;
+    width:50vh;
+    /* background-color: aqua; */
+    border:5px solid rgb(255, 238, 0);
+    box-shadow:2px 2px solid blue;
+    font-size:1.5rem;
+    /* display:flex; */
+    /* justify-content: center; */
+    text-align: center;
+    margin:auto;
+    overflow:hidden;
+
+}
+.delete{
+    background-color:rgb(169, 111, 221);
+    border-radius:0.5rem;
+    font-size:1rem;
+    box-shadow:1px 1px solid yellow;
+}
+.delete:hover{
+    background-color:red;
+}
+@media (max-width:600px){
+    .card{
+        /* height:20rem; */
+        /* height:80 */
+    width:40vh;
+    }
+}
+input{
+    background-color: rgb(230, 214, 125);
+    font-size:1rem;
+}
+.addtask{
+    background-color:rgb(245, 184, 94);
+    font-size:1rem;
+    border-radius: 0.5rem;
+
+}
+.addtask:hover{
+    background-color: rgb(180, 220, 122);
+}
