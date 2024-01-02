@@ -1,16 +1,17 @@
 .page{
-    background-image:url(ToDo.jpg);
-    background-size: cover;
+    /* background-image:url(ToDo.jpg); */
+    /* background-size: cover; */
     z-index:-1;
     height:100vh;
     width:100%;
     color:rgb(9, 9, 121);
+    background-color: #bce7fd;
 }
 .card{
     height:90vh;
-    width:50vh;
+    width:70vh;
     /* background-color: aqua; */
-    border:5px solid rgb(255, 238, 0);
+    /* border:5px solid rgb(255, 238, 0); */
     box-shadow:2px 2px solid blue;
     font-size:1.5rem;
     /* display:flex; */
@@ -20,14 +21,32 @@
     overflow:hidden;
 
 }
+.heading{
+    color:#0b032d;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .delete{
-    background-color:rgb(169, 111, 221);
+    /* background-color:rgb(169, 111, 221); */
+    background-color: red;
+    color:white;
     border-radius:0.5rem;
-    font-size:1rem;
+    border:0px;
+    font-size: 1.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    /* font-size:1rem; */
     box-shadow:1px 1px solid yellow;
 }
+ul li{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1rem;
+    font-family: cursive;
+}
 .delete:hover{
-    background-color:red;
+    background-color:rgb(189, 3, 3);
 }
 @media (max-width:600px){
     .card{
@@ -38,16 +57,21 @@
 }
 input{
     background-color: rgb(230, 214, 125);
-    font-size:1.2rem;
+    font-size:1.5rem;
     border-radius: 0.5rem;
+    padding:0.5rem 1rem 0.5rem 1rem;
 
 }
 .addtask{
-    background-color:rgb(245, 184, 94);
-    font-size:1rem;
+    background-color:#21fa90;
+    font-size:1.5rem;
     border-radius: 0.5rem;
+    padding:0.5rem 1rem 0.5rem 1rem;
 
 }
 .addtask:hover{
-    background-color: rgb(180, 220, 122);
+    background-color: greenyellow;
+}
+input:hover{
+    background-color: #d5cfd3;
 }
